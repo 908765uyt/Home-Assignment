@@ -1,0 +1,29 @@
+Problem Statement:
+*Create an Job application Form with validation
+•	The form should display below mentioned fields
+•	Personal Details                                  *Use this all to create form:
+1.	First Name                                        (input box)
+2.	Middle Name                                       (input box)
+3.	Last Name                                         (input box)
+4.	Gender                                            (radio button)
+5.	Contact no                                        (input box)
+6.	Birth Date                                        (calender)
+7.	E-mail                                            (input box)
+8.	Password                                          (input box)
+9.	Address(City, State, Country, Zipcode)            (input box) 
+
+•	Professional Details
+1.	10th percentage                                   (input box)
+2.	12th percentage                                   (input box)   
+3.      Degree percentage                                 (input box)
+4.      Year of passing                                   (input box)
+5.	Hightest Qualification                            (select)                              
+6.	Specialization                                    (select)
+7.	Technical skills                                  (checkbox)
+8.	Tell me about yourself                            (textarea box)
+9.	Resume                                            (file)
+10	Accpet all the terms                              (single checkbox)
+11.	sumbit                                             (button)
+
+
+
