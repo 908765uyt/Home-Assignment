@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Application Form</title>
+</head>
+<body bgcolor="black" text="white">
+   <h1>Application form</h1><br>
+   <h4>Personal Details</h4>
+   <form>
+   <table>
+      <tr>
+   <td>    
+   <lable>First Name:</lable></td>
+   <td>
+      <input type="text" name="firstname" minlength="10" maxlength="15" required>
+   (Max 15 Characters Allowed)</td></tr>
+      <tr>
+     <td>    
+   <lable>Middle Name:</lable></td>
+   <td>
+   <input type="text" name="middlename" minlength="10" maxlength="15" required>
+   (Max 15 Characters Allowed)</td></tr>
+   <lable>Last Name:</label>
+   <input type="text"  name="lastname" minlength="10" maxlength="15" required>
+   (Max 15 Characters Allowed)
+   <lable>Contact no:</lable>
+   <select>
+      <option>+91</option>
+      <option>+98</option>
+      <option>+39</option>
+      <option>+60</option>
+      <option>+62</option>
+      <option> +592</option>
+      <option>+964</option>
+   </select>
+   <input type="text" name="phone" maxlength="10">
+   <lable>Birth Date:</lable>
+   <input type="date" name="date">
+   <lable>E-mail:</lable>
+   <input type="email"  required>
+   <lable>Password:</lable>
+   <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z]).{8.}" title="Must contain at least one number and one uppercase and one lowercase letter, and at least 8 or more characters"/>
+   <lable>Gender:</lable></td><br>
+   <input type="radio" name="r1">Male
+   <input type="radio" name="r1">Female
+   <input type="radio" name="r1">Others
+   
+   <lable>Address:</lable>
+   <textarea  rows="5" cols="25"></textarea>
+   <lable>City:</lable>
+   <input type="text" name="city">
+   <lable>State:</lable>
+   <input type="text" name="state">
+   <lable>Country:</lable>
+   <input type="text" name="country">
+   <lable>Zip Code:</lable>
+   <input type="text" name="zip code" maxlength="6">
+   <h4>Professional Details</h4>
+   <lable>10th percentage:</lable><br>
+   <input type="text" name="percentage1" maxlength="2" required>
+   <lable>12th percentage:</lable><br>
+   <input type="text" name="percentage2" maxlength="2" required><br><br>
+   <lable>Hightest qualification percentage</lable>
+   <input type="text" name="percentage2" maxlength="2" required><br><br>
+   <lable>Year of passing:</lable>
+   <input type="date" name="year" min="2016" max="2022" required><br><br>
+   <lable>Hightest qualification:</lable>
+   <select>
+      <option>select</option>
+      <option>BCA</option>
+      <option>MCA</option>
+      <option>BE</option>
+      <option>B.Tech</option>
+      <option>ME</option>
+      <option>M.Tech</option>
+      <option>MBA</option>
+      </select><br><br>
+      <lable>Specialization:</lable>
+      <select>
+         <option>select</option>
+         <option>Computer Science</option>
+         <option>Information Technology</option>
+         <option>Electronic Engineering</option>
+         <option>Mechnical Engineering</option>
+         <option>Other</option>
+      </select><br><br>
+      <lable>Technical Skills:</lable><br>
+      <input type="checkbox" name="skills1">C Language<br>
+      <input type="checkbox" name="skills2">C++ Language<br>
+      <input type="checkbox" name="skills3">Python Language<br>
+      <input type="checkbox" name="skills4">Java Language<br>
+      <input type="checkbox" name="skills5">HTML & CSS<br>
+      <input type="checkbox" name="skills6">JavaScripit<br>
+      <input type="checkbox" name="skills">Machine Learning<br><br>
+      <lable>Tell me about yourself:</lable>
+      <textarea rows="7" cols="30" placeholder="Tell me about yourself" required></textarea><br><br>
+      <lable>Upload resume:</lable><br>
+        <input type="file" required><br><small>(Maximum file size 3 MB, File format:.doc,docx,.pdf,.rtf)</small><br><br>
+      <input type="checkbox" required>*I have read the and accept the terms of use and privacy policy<br><br>
+      <input type="Reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="Submit" value="submit">
+      </table>
+      </form>
+   </body>
+</html>
