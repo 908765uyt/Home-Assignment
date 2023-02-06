@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <script>
+      var english,maths,boilogy,chemistry,phyiscis,sum,avg;
+      english=parseInt(prompt("Enter a marks of english"));
+      maths=parseInt(prompt("Enter a marks of english"));
+      boilogy=parseInt(prompt("Enter a marks of english"));
+      chemistry=parseInt(prompt("Enter a marks of english"));
+      phyiscis=parseInt(prompt("Enter a marks of english"));
+      sum=english+maths+boilogy+chemistry+phyiscis;
+      document.write("total marks:"+sum+"<br>");
+      avg=sum/5;
+      document.write("average:"+avg+"<br>");
+      if(avg>=90)
+      {
+         alert("A grade");
+      }
+      else if(avg>=80)
+      {
+         alert("B grade");
+      }
+      else if(avg>=70)
+      {
+         alert("C grade");
+      }
+      else
+      {
+         alert("Low grade");
+      }
+
+   
+   </script>
+</body>
+</html>
